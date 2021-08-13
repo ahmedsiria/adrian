@@ -983,6 +983,18 @@ keyboard.inline_keyboard = {
 {
 {text = '  اضف البوت الي مجموعتك'   ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"},
 },
+{
+{text = 'العاب السورس🕹', callback_data="/mute-name"},{text = 'مميزات🎪', callback_data="/change-photo"},
+},
+{
+{text = 'العاب متطوره🎮', callback_data="/sofi"},
+},
+{
+{text = 'الاوامر🎡', callback_data="/help90"},
+},
+{
+{text = '《♡ 𝙎𝙐𝙍𝘾𝙀 𝙎𝙄𝙍𝙄𝘼》', url="t.me/X_G_33"},
+},
 }
 local function getpro(extra, result, success) 
 if result.photos_[0] then 
@@ -8249,7 +8261,7 @@ send(msg.chat_id_, msg.id_, ' ✹ تم مسح جميع الكلاب')
 end
 if text == ("تاك للكلاب") and Mod(msg) then
 local list = database:smembers(bot_id..'Modde:User'..msg.chat_id_)
-t = "\n ✹ قائمه كلاب الجروب \n𖤍━┅┄⟞⟦᪣𝙎𝙐𝙍𝘾𝙀 𝙎𝙄𝙍𝙄𝘼᪣⟧⟝┄┉━𖤍\n"
+t = "\n ✹ قائمه كلاب الجروب \n𖤍━┅┄⟞⟦᪣??𝙐𝙍𝘾𝙀 𝙎𝙄𝙍𝙄𝘼᪣⟧⟝┄┉━𖤍\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -15750,7 +15762,7 @@ Msᴀɢ ~ #msgs
 ➫✿: 𝗖?? - ↝@X_G_33↜ ♡.
 ]],
 [[
-✶- 𝒔𝒕??𓂅 #stast 𓍯↝❃ .
+✶- 𝒔𝒕𝒂𓂅 #stast 𓍯↝❃ .
 ✶- 𝐮??𝐞𝐫𓂅 #username 𓍯↝❃.
 ✶- 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯↝❃.
 ✶- 𝐢𝐝 𓂅 #id 𓍯↝❃.
